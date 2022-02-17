@@ -1,3 +1,16 @@
+je m'apercois que je n'ai pas de schéma pour ma réalisation . il sera ajouter quand je l'aurais fait :-))
+
+Pour info, le résultat du calcul fait par le code PID modifie la largeur de l'impulsion PWM ( c'est le principe !)
+cette impulsion commande un mosfet qui coupe ou non la résistance du fer .
+La valeur de cette résistance chauffante varie légérement avec la température et sert ainsi de capteur.
+
+La puissance vient d'un transfo et d'un redressemt double alternance. La tension de puissance n'est pas
+filtrée, seule l'alimentation  du arduino micro est filtrée puis régulée par un lm7805 
+Deux boutons permettent de fixer la température à 100°c et à 200°c pour faire une fonction veille moins chaude.
+le code  donne les connections pour le cablage, très simple.
+
+Ce lien est très utile pour comprendre la régulation .
+
 
 ***************************************************************
 * Arduino PID Library - Version 1.2.0
